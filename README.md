@@ -1,2 +1,2 @@
 # banner
-Banner
+Banner Slider
