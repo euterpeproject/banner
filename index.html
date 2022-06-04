@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Inicio</title>
+        <meta charset="utf-8">
+        
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+        <script src="js/jquery-1.6.3.min.js" type="text/javascript"></script>
+        <script src="js/tms-0.3.js" type="text/javascript"></script>
+        <script src="js/tms_presets.js" type="text/javascript"></script>
+        
+    </head>
+    <body>
+        <div class="main">
+        <center><h1>Banner Slider</h1></center>
+
+        <center><section id="content">
+                <hr style="border-color: white">
+                <div style="height: 15px"></div>
+                <hr style="border-color: white">
+                
+                <div class="slider-wrapper">
+                    
+                    <div class="slider">
+                        <ul class="items">
+                            <li>
+                                <img src="images/banner.jpg" alt="" />
+                                    <strong class="banner">
+                                        <a class="close" href="#">x</a>
+                                        <strong>Disfruta de tus bandas favoritas!!</strong>
+                                        <b class="margin-bot">Con Euterpe Death entra en la onda del Metal local y lo último de los tops a nivel mundial!!</b>
+                                    </strong>
+                            </li>
+                            <li>
+                                <img src="images/banner1.jpg" alt="" />
+                                    <strong class="banner">
+                                        <a class="close" href="#">x</a>
+                                        <strong>Escucha Y Descarga!!</strong>
+                                        <span>Menu--- Multimedia!!!</span>
+                                        <b class="margin-bot">Disfruta de tu música en tiempo real, las actualizaciones musicales de tus bandas favoritas!!</b>
+                                    </strong>
+                            </li>
+                            <li>
+                                <img src="images/banner3.jpg" alt="" />
+                                    <strong class="banner">
+                                        <a class="close" href="#">x</a>
+                                        <strong>Compra Como Nunca Antes!!</strong>
+                                        <span>Disfruta todo nuestro contenido</span>
+                                        <b class="margin-bot">Disfruta de nuestra variedad de albunes, demos, y todo lo que quieres acerca de tus artistas!!! </b>
+                                    </strong>
+                            </li>
+                            <li>
+                                <img src="images/banner2.jpg" alt="" />
+                                    <strong class="banner">
+                                        <a class="close" href="#">x</a>
+                                        <strong>Maneja Tus Exitos En Linea!!!</strong>
+                                        <span>Biblioteca Virtual!!</span>
+                                        <b class="margin-bot">Euterpe Death te brinda la posibilidad de registrarte gratuitamente con nosotros y llevar el registro de todas tus bandas!!!!</b>
+                                    </strong>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="pagination">
+                        <li><a class="item-1" href=""><strong>01</strong></a></li>
+                        <li><a class="item-2" href=""><strong>02</strong></a></li>
+                        <li><a class="item-3" href=""><strong>03</strong></a></li>
+                        <li><a class="item-4" href=""><strong>04</strong></a></li>
+                    </ul>
+                </div>
+                <br>
+                <hr style="border-color: white">
+                <div style="height: 15px"></div>
+                <hr style="border-color: white">
+                
+                <center><h1>Elige tu música favorita</h1></center>
+                
+            </section></center> 
+                
+            <hr><hr>
+
+        </div>
+          
+            
+        
+        <script type="text/javascript">
+            $(window).load(function() {        
+                $('.slider')._TMS({              
+                    duration:800,
+                    easing:'easeOutQuart',
+                    preset:'diagonalExpand',
+                    slideshow:7000,
+                    pagNums:false,
+                    pagination:'.pagination',
+                    banners:'fade',
+                    pauseOnHover:true,
+                    waitBannerAnimation:true
+                });
+            });
+        </script>   
+
+    </body>
+    
+</html>
