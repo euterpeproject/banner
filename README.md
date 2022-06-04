@@ -1,2 +1,2 @@
-# banner.io
+# banner
 Banner
