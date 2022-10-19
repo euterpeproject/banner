@@ -1,1 +1,5 @@
-www.mibanner.com
+$dig WWW.TUBANNER.COM +nostats +nocomments +nocmd
+    > ;WWW.TUBANNER.COM.                    IN      A
+    > WWW.TUBANNER.COM.             3592    IN      CNAME   euterpeproject.github.io.
+    > euterpeproject.github.io.      43192   IN      CNAME   GITHUB-PAGES-SERVER .
+    > GITHUB-PAGES-SERVER .         22      IN      A       banner.v6.army
